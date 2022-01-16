@@ -41,7 +41,27 @@ print(acronimo_cfa.index('F'))
 str3 = 'Coding For All People'
 print(str3.rindex('l'))
 
-#23, 24
+#23, 24, 25, 26
 str4 = 'You cannot end a sentence with because because because is a conjunction'
 print(str4.index('because'))
 print(str4.rindex('because'))
+print(str4.split('because'))
+print(str4[0:31]+str4[54:])
+print(str4.find('because'))
+
+#28, 29
+print(company.startswith('Coding'))
+print(company.endswith('coding'))
+
+#30
+str5 = ' Coding For All '
+print(str5.strip())
+
+#31
+str6 = '30DaysOfPython'
+str7 = 'thirty_days_of_python'
+print(str6.isidentifier())
+print(str7.isidentifier())
+
+#32
+
